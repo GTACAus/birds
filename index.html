@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bird Skull Standards</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f5f5f5;
+        position: relative; /* To position the QR code */
+      }
+      h1 {
+        font-size: 2.5rem;
+        color: #333;
+        margin-bottom: 20px;
+      }
+      .qr-code {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        width: 100px;
+        height: 100px;
+        border: 2px solid #ccc;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      .qr-code img {
+        width: 80%;
+        height: 80%;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Three columns */
+        gap: 20px;
+        width: 80vw; /* Slightly wider to fit 3 columns */
+        height: 200vw; /* Let height grow based on content */
+      }
+      .grid-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .grid-item iframe {
+        width: 100%;
+        height: 80%;
+        border: none;
+        border-radius: 15px; /* Rounded corners */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for a Google-like look */
+      }
+      .label {
+        margin-top: 10px;
+        font-size: 1.2rem;
+        color: #555;
+        font-weight: 500;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="qr-code">
+      <img
+        src="https://cdn.glitch.global/63aadeb0-a311-439b-b004-358efb703844/qrcode.JPG?v=1726804877239"
+        alt="QR Code"
+      />
+    </div>
+
+    <h1>Bird Skull Standards</h1>
+    <!-- Added title -->
+
+    <div class="grid-container">
+      <div class="grid-item">
+        <iframe
+          src="https://www.thinglink.com/view/scene/1963783122264785764"
+          title="Peregrine falacon"
+        ></iframe>
+        <div class="label">Peregrine falcon</div>
+      </div>
+      <div class="grid-item">
+        <iframe
+          src="https://www.thinglink.com/view/scene/1963783356256617316"
+          title="Tawny frogmouth"
+        ></iframe>
+        <div class="label">Tawny frogmouth</div>
+      </div>
+      <div class="grid-item">
+        <iframe
+          src="https://www.thinglink.com/view/scene/1963783447709221732"
+          title="Barking Owl"
+        ></iframe>
+        <div class="label">Barking owl</div>
+      </div>
+      <div class="grid-item">
+        <iframe
+          src="https://www.thinglink.com/view/scene/1963783833253839716"
+          title="Boobook owl"
+        ></iframe>
+        <div class="label">Boobook owl</div>
+      </div>
+      <div class="grid-item">
+        <iframe
+          src="https://www.thinglink.com/view/scene/1963786330232062820"
+          title="New-holland honeyeater"
+        ></iframe>
+        <div class="label">New-holland honeyeater</div>
+      </div>
+      <div class="grid-item">
+        <iframe
+          src="https://www.thinglink.com/view/scene/1893493405057549156"
+          title="Wedge tailed eagle"
+        ></iframe>
+        <div class="label">Wedge tailed eagle</div>
+      </div>
+    </div>
+    <p style="font-size: 0.8rem; color: #777; margin-top: 40px;">
+  3D models by GTAC or &copy; <a href="https://sketchfab.com/wamuseum/collections/bird-skulls-12dc07bcf2ec49288ef2b6db4c1d4e00" target="_blank" style="color: #555; text-decoration: underline;">
+    Western Australian Museum
+  </a> – licensed under 
+  <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" style="color: #555; text-decoration: underline;">
+    CC BY 4.0
+  </a>
+</p>
+
+  </body>
+</html>
